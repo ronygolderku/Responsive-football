@@ -16,12 +16,16 @@ height: 677px;
     width: 50%;
     padding-left: 102px;
 }
-
+.half-width img:hover{
+    transform: rotate(10deg);
+    transition-delay: 1s;
+}
 .half-width img{
     width: 556.01px;
     height: 438px;
     margin-top: 153px;
     margin-right: 141px;
+    
 }
 .half-width h1{
     font-size: 64px;
@@ -96,7 +100,7 @@ margin-bottom: 120px;
 }
 /* last-section */
 .social-media{
-    margin-top: 1674px;
+    margin-top: 1574px;
     display: flex;
     flex-direction: column;
     justify-content: center;
