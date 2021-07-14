@@ -1,0 +1,147 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* for banner section */
+.container{
+    display: flex;
+    width: 1440px;
+height: 677px;
+    background-color: #2D25A0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 102px;
+}
+
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;
+}
+.half-width h1{
+    font-size: 64px;
+    color: white;
+    margin-top: 207px;
+    font-weight: 700;
+    width: 485px;
+height: 230px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+   font-size: 16px;
+   padding: 10px 24px;
+}
+/* players list */
+.player-sec{
+margin-top: 70px;
+margin-bottom: 120px;
+}
+.players{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 435px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+.player{
+    width: 300px;
+    margin: 0px 10px;
+    height: 426px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+ .thumbnail h3{
+    font-weight: 700;
+    color:  #18191F;
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.thumbnail p{
+    margin-left: 15px;
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+    margin-top: 0;
+}
+/* last-section */
+.social-media{
+    margin-top: 1674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.icon{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.one{
+    background-color: #969BAB;
+    padding: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+
+}
+
+.two{
+
+    background-color: #969BAB;
+    padding: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.three{
+
+    background-color: #969BAB;
+    padding: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.four{
+
+    background-color: #969BAB;
+    padding: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.icons p{
+    text-align:center;
+    color: black;
+    font-size:  18px;
+    margin:20px 0px;
+}
